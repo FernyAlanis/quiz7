@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+string isPalindrome(string x){
+if (x == string(x.rbegin(), x.rend())) {
+return "Si, es Palidromo :D";
+}
+else{
+return "No, no es Palindromo :(";
+}
+}
+int main()
+{
+string x;
